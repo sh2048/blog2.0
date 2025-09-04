@@ -201,7 +201,7 @@ async function renderList() {
 }
 
 // 评论（改为调用本地 API 持久化到电脑）
-const API_BASE = "http://localhost:3000/api"; // 若部署到其他域名/端口，请调整
+const API_BASE = "https://blog8.vercel.app/api"; // 若部署到其他域名/端口，请调整
 
 function commentKey(slug) { return `comments:${slug}`; }
 
