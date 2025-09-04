@@ -1,0 +1,20 @@
+/* styles/comments.css */
+.cm-root { margin-top: 2rem; border-top: 1px solid #eee; padding-top: 1rem; font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"; }
+.cm-title { margin: 0 0 1rem 0; font-size: 1.25rem; }
+.cm-container { display: grid; gap: 1rem; }
+.cm-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+.cm-item { padding: 0.5rem 0.75rem; border: 1px solid #f0f0f0; border-radius: 8px; background: #fff; }
+.cm-meta { color: #666; margin-bottom: 0.25rem; font-size: 0.9rem; }
+.cm-body { white-space: pre-wrap; line-height: 1.5; }
+.cm-form { display: grid; gap: 0.5rem; }
+.cm-form input, .cm-form textarea { width: 100%; box-sizing: border-box; padding: 0.6rem 0.75rem; border: 1px solid #ddd; border-radius: 8px; outline: none; }
+.cm-form input:focus, .cm-form textarea:focus { border-color: #999; }
+.cm-btn { display: inline-block; padding: 0.6rem 0.9rem; border-radius: 8px; border: 1px solid #222; background: #111; color: #fff; cursor: pointer; }
+.cm-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+@media (prefers-color-scheme: dark) {
+  .cm-root { border-color: #333; }
+  .cm-item { background: #111; border-color: #333; }
+  .cm-meta { color: #aaa; }
+  .cm-form input, .cm-form textarea { background: #0a0a0a; border-color: #333; color: #eee; }
+  .cm-btn { border-color: #eee; background: #eee; color: #111; }
+}
